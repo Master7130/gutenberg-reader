@@ -26,7 +26,7 @@ export default function Home() {
         <button className="w-20" onClick={fetchData}>Get</button>
       </div>
 
-      <div className='mx-[10%]'>
+      <div className='mx-[10%] prose lg:prose-lg prose-a:text-blue-700 max-w-none prose-headings:text-center'>
         {data !== null ? <div dangerouslySetInnerHTML={{ __html: data.html }} /> : ""}
       </div>
     </div>

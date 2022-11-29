@@ -10,28 +10,13 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
+/* a {
   color: inherit;
   text-decoration: none;
-}
+} */
 
 * {
   box-sizing: border-box;
-}
-
-h1 {
-  font-size: xx-large;
-  text-align: center;
-}
-
-h2 {
-  font-size: x-large;
-  text-align: center;
-}
-
-h3 {
-  font-size: larger;
-  text-align: center;
 }
 
 /* 
