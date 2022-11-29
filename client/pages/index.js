@@ -14,8 +14,6 @@ export default function Home() {
       })
   }
 
-  if (!isLoading) console.log(data)
-
   return (
     <div className="w-screen h-screen">
       <div className="grid grid-cols-2 gap-x-10 w-full">
