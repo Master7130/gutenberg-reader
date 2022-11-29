@@ -10,9 +10,9 @@ headers = {
 }
 
 
-def scrape(url):
+def scrape(code):
     req = requests.get(
-        f'https://www.gutenberg.org/cache/epub/{url}/pg{url}-images.html', headers)
+        f'https://www.gutenberg.org/cache/epub/{code}/pg{code}-images.html', headers)
     soup = BeautifulSoup(req.content, 'html.parser')
 
     for s in soup.select("section"):
