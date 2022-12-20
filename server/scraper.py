@@ -18,4 +18,14 @@ def scrape(code):
     for s in soup.select("section"):
         s.extract()
 
+    for img in soup.select("img"):
+        img.extract()
+
+    for pre in soup.select("pre"):
+        pre.extract()
+
+    for p in soup.select("p"):
+        if (p.find("br")):
+            p.extract()
+
     return soup.find("body")
